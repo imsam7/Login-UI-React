@@ -1,0 +1,127 @@
+.App {
+  font-family: sans-serif;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 700px;
+  margin-right: 0px;
+  background-color: white;
+  padding: 50px 50px 50px 30px ;
+  border-radius: 16px;
+  box-shadow: 5px 5px 2px black;
+}
+
+label,
+input {
+  display: block;
+  width: 100%; 
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.b {
+  padding: 12px 145px;
+  background-color: black;
+  color: white;
+  border: 0px;
+  background-color: 250ms;
+  border-radius: 6px;
+  margin-top: 50px; 
+}
+
+.b:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 800px;
+  margin-right: 400px;
+  margin-top: 50px;
+}
+
+label{
+  font-size: 20px;
+  color: black;
+}
+
+select
+{
+  background-color: white; 
+  margin: 0 auto;
+  margin-left: 850px;
+  margin-right: 600px;
+}
+
+body{
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%; 
+}
+
+#b1
+{
+  background-color: black;
+  color: white;
+  padding:9px;
+  background-color: black;
+
+  border: 0px;
+}
+
+#dd
+{
+  background-color: black;
+}
+
+#dd1
+{
+  margin-left: 0px;
+}
+
+#tb
+{
+  text-align: center;
+}
+
+#pad
+{
+  padding:5px;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
